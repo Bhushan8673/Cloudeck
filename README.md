@@ -16,7 +16,7 @@ Officially available via the Arduino Library Manager.
 - Built-in MQTT publish and subscribe support
 - Modular architecture with optional features
 - Optional IoT car and motor control module
-- Compatible with EMQX, AWS IoT, Mosquitto, and other MQTT brokers
+- Compatible  MQTT brokers
 - Supports WebSocket-based dashboards and web interfaces
 - Non-blocking, production-safe loop handling
 
