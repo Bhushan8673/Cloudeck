@@ -1,4 +1,9 @@
 # Cloudeck 🚀  
+
+![Arduino Library](https://img.shields.io/badge/Arduino-Library-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![GitHub stars](https://img.shields.io/github/stars/Bhushan8673/Cloudeck?style=social)
+
 A Modular IoT SDK for Cloud-Connected Devices
 
 Cloudeck is a hardware-agnostic, modular IoT SDK designed for Arduino-based IoT devices with built-in Wi-Fi.
