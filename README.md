@@ -1,3 +1,27 @@
+# Cloudeck 🚀  
+A Modular IoT SDK for Cloud-Connected Devices
+
+Cloudeck is a hardware-agnostic, modular IoT SDK designed for Arduino-based IoT devices with built-in Wi-Fi.
+It simplifies Wi-Fi and MQTT communication and enables developers to build scalable, cloud-connected IoT solutions using clean and reusable code.
+
+Cloudeck is built with a production-ready mindset and can be reused across multiple projects, from basic MQTT communication to real-world applications such as remote motor and IoT car control.
+
+Officially available via the Arduino Library Manager.
+
+---
+
+## Key Features
+
+- Simple Wi-Fi connection management
+- Built-in MQTT publish and subscribe support
+- Modular architecture with optional features
+- Optional IoT car and motor control module
+- Compatible with EMQX, AWS IoT, Mosquitto, and other MQTT brokers
+- Supports WebSocket-based dashboards and web interfaces
+- Non-blocking, production-safe loop handling
+
+---
+
 ## Supported Hardware and IoT Devices
 
 Cloudeck is a hardware-agnostic, modular IoT SDK designed for Arduino-based IoT devices with built-in Wi-Fi.
@@ -42,3 +66,33 @@ Cloudeck is built with a future-ready modular architecture, enabling expansion t
 
 This approach ensures Cloudeck remains adaptable for both current and next-generation IoT systems.
 
+---
+
+## Installation
+
+Cloudeck is officially available through the Arduino Library Manager.
+
+### Install via Arduino Library Manager
+
+1. Open Arduino IDE  
+2. Go to Sketch → Include Library → Manage Libraries  
+3. Search for Cloudeck  
+4. Click Install  
+
+---
+
+### Manual Installation (ZIP)
+
+1. Download this repository as a ZIP file  
+2. Open Arduino IDE  
+3. Go to Sketch → Include Library → Add .ZIP Library  
+4. Select the downloaded ZIP file  
+
+---
+
+### Include in Your Sketch
+
+After installing the library, include Cloudeck in your Arduino sketch:
+
+```cpp
+#include <Cloudeck.h>
