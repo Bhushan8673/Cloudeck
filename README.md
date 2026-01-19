@@ -1,4 +1,4 @@
-# Cloudeck 🚀  
+# ClouDeck 🚀  
 
 ![Arduino Library](https://img.shields.io/badge/Arduino-Library-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
